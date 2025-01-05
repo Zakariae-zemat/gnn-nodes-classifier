@@ -1,0 +1,24 @@
+Lancement de 20 essais pour optimiser les hyperparamètres...
+
+Epoch 1/300
+5/5 ━━━━━━━━━━━━━━━━━━━━ 15s 354ms/step - acc: 0.2490 - loss: 1.9176 - val_acc: 0.2277 - val_loss: 1.8699
+Epoch 2/300
+5/5 ━━━━━━━━━━━━━━━━━━━━ 0s 61ms/step - acc: 0.3028 - loss: 1.7932 - val_acc: 0.3267 - val_loss: 1.7402
+Epoch 3/300
+5/5 ━━━━━━━━━━━━━━━━━━━━ 0s 71ms/step - acc: 0.4395 - loss: 1.5929 - val_acc: 0.5396 - val_loss: 1.4253
+Epoch 4/300
+5/5 ━━━━━━━━━━━━━━━━━━━━ 0s 76ms/step - acc: 0.6046 - loss: 1.2275 - val_acc: 0.4851 - val_loss: 1.3864
+Epoch 5/300
+...
+...
+Epoch 82/300
+5/5 ━━━━━━━━━━━━━━━━━━━━ 0s 81ms/step - acc: 1.0000 - loss: 1.0925e-04 - val_acc: 0.6733 - val_loss: 3.0229
+Essai 1/20 | Test accuracy: 0.6628 | Params: ([16, 16], 0.1, 'mean', 'concat', 0.001)
+...
+...
+Epoch 55/300
+5/5 ━━━━━━━━━━━━━━━━━━━━ 1s 201ms/step - acc: 1.0000 - loss: 2.7129e-05 - val_acc: 0.6980 - val_loss: 3.0301
+Essai 20/20 | Test accuracy: 0.7280 | Params: ([64, 64], 0.1, 'sum', 'concat', 0.001)
+
+Meilleure précision : 0.7280
+Meilleurs hyperparamètres : ([64, 64], 0.1, 'sum', 'concat', 0.001)
